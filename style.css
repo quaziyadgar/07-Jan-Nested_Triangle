@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+.triangle{
+    
+}
+.tri1{
+    margin: 0 auto 0 auto;
+    border-bottom: 150px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0px;
+    position: relative;
+    top: 150px;
+}
+.tri2{
+    margin: 0 auto 0 auto;
+    border-bottom: 150px solid green;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0px;
+    position: relative;
+    top: 75px;
+
+}
+.tri3{
+    margin: 0 auto 0 auto;
+    border-bottom: 150px solid blue;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0px;
+    /* position: relative; */
+}
+li{
+    display: inline;
+    padding:20px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+}
+img{
+    height: 50px;
+    margin-left: 50px;
+}
+nav{
+    border: 1px solid black;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+}
+span{
+    /* border: 1px solid blue; */
+}
+.para{
+    border: 1px solid blue;
+    margin: 100px;
+}
+.para p{
+    text-align: justify;
+}
