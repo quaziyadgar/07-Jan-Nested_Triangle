@@ -2,7 +2,11 @@
     margin: 0;
 }
 .triangle{
-    
+    /* border: 2px solid  gray; */
+    position: relative;
+    height: 300px;
+    display: block;
+    margin: 200px;
 }
 .tri1{
     margin: 0 auto 0 auto;
@@ -10,7 +14,7 @@
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     width: 0px;
-    position: relative;
+    position: absolute;
     top: 150px;
 }
 .tri2{
@@ -19,8 +23,9 @@
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     width: 0px;
-    position: relative;
+    position: absolute;
     top: 75px;
+
 
 }
 .tri3{
@@ -29,7 +34,7 @@
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     width: 0px;
-    /* position: relative; */
+    position: absolute;
 }
 li{
     display: inline;
@@ -51,13 +56,13 @@ nav{
     height: 50px;
     background-color: black;
     position: fixed;
+    top: 0px;
+    width: 100%;
 }
-span{
-    /* border: 1px solid blue; */
-}
+
 .para{
     border: 1px solid blue;
-    margin: 100px;
+    margin: 500px 100px 0 100px;
 }
 .para p{
     text-align: justify;
